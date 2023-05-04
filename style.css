@@ -1,0 +1,160 @@
+
+		/* CSS code for header */
+		header {
+			background-color:bisque;
+			padding: 20px;
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		/* CSS code for menu */
+		nav {
+			display: flex;
+			justify-content: center;
+			background-color: #444;
+			padding: 7px;
+		}
+
+		nav a {
+			color: #fff;
+			padding: 10px;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+			margin-right: 10px;
+			border-radius: 5px;
+			transition: background-color 0.5s ease;
+		}
+
+		nav a:hover {
+			background-color: #555;
+		}
+
+		/* CSS code for footer */
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 16px;
+		}
+
+		/* CSS code for main */
+		main {
+			padding: 20px;
+			text-align: center;
+		}
+/* CSS code for main */
+main {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main div {
+  width: 60%;
+  height: 70%;
+  margin: 10px;
+  border-radius: 5px;
+}
+/*css for  eductn background*/
+.div3 table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding-top: 10px;
+    
+  }
+  
+  .div2  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+  
+  }
+  
+ .div2  tr:nth-child(even) {
+    background-color: #dddddd;
+ }
+ .div2  table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding-top: 10px;
+    
+  }
+  
+   .div3 td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+  
+  }
+  
+ .div3 tr:nth-child(even) {
+    background-color: #dddddd;
+ }
+ .div6 table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding-top: 10px;
+    
+  }
+  
+   .div6 td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+  
+  }
+  
+ .div6 tr:nth-child(even) {
+    background-color: #dddddd;
+ }
+ ol{
+    list-style-type: none;
+ }
+
+
+
+		/* Background colors for each div */
+		.div1 {
+			background-color:grey;
+		}
+
+		.div2 {
+			background-color: grey;
+		}
+
+		.div3 {
+			background-color:grey;
+		}
+
+		.div4 {
+			background-color: grey;
+		}
+
+		.div5 {
+			background-color:grey;
+		}
+
+		.div6 {
+			background-color: grey;
+		}
+
+		.div7 {
+			background-color: grey;
+		}
+
+		.div8 {
+			background-color: grey;
+		}
+
+		.div9 {
+			background-color:grey;
+		}

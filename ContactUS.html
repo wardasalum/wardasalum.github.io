@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <style>
+      body{
+        background-color:beige;
+      }
+      #map {
+        height: 150px;
+        width: 50%;
+        margin-top: 50px;
+        float: right;
+      }
+      form {
+        display: flex;
+        flex-direction: column;        
+        margin: 0 auto;
+        position: absolute;
+        top: 10%;
+        width: 40%;
+        padding: 20px;
+        border: 2px solid white;
+      }
+      label,
+      input,
+      textarea {
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        background-color: rgb(41, 128, 185);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      span{
+        
+        color: rgb(41, 128, 185);
+        font-size: 22px;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+      }
+      input[type="button"]{
+        background-color: green;
+        width: 100%;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      a{
+        text-decoration: none;
+        color: rgb(41, 128, 185);
+        font-weight: bolder;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d63463.75035015888!2d39.26903554635846!3d-6.1996452779635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d-6.1997322!2d39.3102357!4m0!5e0!3m2!1sen!2stz!4v1683196893877!5m2!1sen!2stz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <form>
+      <span>Fill in Information</span>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" required></textarea>
+      <input type="submit" value="Submit">
+      <a href="log.html">Go to Login</a>
+      <a href="index.html">Home</a>
+    </form>
+   <!-- <script src=""></script>-->
+    <script src="contact.js"></script>
+  </body>
+</html>
