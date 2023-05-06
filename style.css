@@ -1,0 +1,133 @@
+
+		/* CSS code for header */
+		header {
+		
+			padding: 12px;
+			text-align: center;
+			font-size: 12px;
+			font-weight: bold;
+		}
+
+		/* CSS code for menu */
+		nav {
+			display: flex;
+			justify-content: center;
+			background-color: #444;
+			padding: 7px;
+		}
+
+		nav a {
+			color: #fff;
+			padding: 10px;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+			margin-right: 10px;
+			border-radius: 5px;
+			transition: background-color 0.5s ease;
+		}
+
+		nav a:hover {
+			background-color: #555;
+		}
+
+	
+    
+	
+      
+	
+
+		/* CSS code for main */
+		main {
+			padding: 20px;
+			text-align: center;
+     brown;
+          
+		}
+/* CSS code for main */
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1 px  dashed;
+  border: 1 px solid brown;
+ 
+
+}
+
+main div {
+  width: 60%;
+  height: 50%;
+  border-radius: 5px;
+  border: 1 px solid black;
+  border-width: 2px;
+  padding: 20px;
+
+
+}
+/*css for  eductn background*/
+.div3 table {
+    
+    font-family: arial, sans-serif;
+  
+    padding-top: 10px;
+    
+  }
+  
+  .div2  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+  
+  }
+  
+ .div2  tr:nth-child(even) {
+    background-color: #dddddd;
+ }
+ .div2  table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding-top: 10px;
+    
+  }
+  
+   .div3 td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+  
+  }
+  
+ .div3 tr:nth-child(even) {
+    background-color: #dddddd;
+ }
+ .div6 table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding-top: 10px;
+    
+  }
+  
+   .div6 td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+  
+  }
+  
+ .div6 tr:nth-child(even) {
+    background-color: #dddddd;
+ }
+ ol{
+    list-style-type: none;
+ }
+
+
+
+		/* Background colors for each div */
+		
+		
